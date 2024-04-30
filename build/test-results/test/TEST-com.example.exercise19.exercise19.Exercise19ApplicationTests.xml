@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.exercise19.exercise19.Exercise19ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-28T11:08:16" hostname="MacBook-Pro-Daniil.local" time="0.329">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.exercise19.exercise19.Exercise19ApplicationTests" time="0.329"/>
+  <system-out><![CDATA[15:08:15.142 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.exercise19.exercise19.Exercise19ApplicationTests]: Exercise19ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:08:15.172 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.exercise19.exercise19.Exercise19Application for test class com.example.exercise19.exercise19.Exercise19ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-04-28T15:08:15.300+04:00  INFO 14144 --- [exercise19] [    Test worker] c.e.e.e.Exercise19ApplicationTests       : Starting Exercise19ApplicationTests using Java 21.0.2 with PID 14144 (started by daniilkuznetsov in /Users/daniilkuznetsov/Desktop/Module-3/Exercise-19)
+2024-04-28T15:08:15.301+04:00  INFO 14144 --- [exercise19] [    Test worker] c.e.e.e.Exercise19ApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-04-28T15:08:15.420+04:00  INFO 14144 --- [exercise19] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-28T15:08:15.425+04:00  INFO 14144 --- [exercise19] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2024-04-28T15:08:15.568+04:00  INFO 14144 --- [exercise19] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-28T15:08:15.587+04:00  INFO 14144 --- [exercise19] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-28T15:08:15.603+04:00  INFO 14144 --- [exercise19] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-28T15:08:15.714+04:00  INFO 14144 --- [exercise19] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-28T15:08:15.728+04:00  INFO 14144 --- [exercise19] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-28T15:08:15.920+04:00  INFO 14144 --- [exercise19] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17b6ad97
+2024-04-28T15:08:15.921+04:00  INFO 14144 --- [exercise19] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-28T15:08:15.946+04:00  WARN 14144 --- [exercise19] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-28T15:08:16.044+04:00  INFO 14144 --- [exercise19] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-28T15:08:16.046+04:00  INFO 14144 --- [exercise19] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-28T15:08:16.114+04:00  INFO 14144 --- [exercise19] [    Test worker] c.e.e.e.Exercise19ApplicationTests       : Started Exercise19ApplicationTests in 0.897 seconds (process running for 1.312)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/daniilkuznetsov/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.13/979ce25f7d3096a2e82214ba7dc972a05ce7a171/byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
